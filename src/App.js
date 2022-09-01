@@ -1,9 +1,10 @@
-import './styles/style.scss'
+import './styles/style.scss';
+import Header from './components/shared/Header';
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
