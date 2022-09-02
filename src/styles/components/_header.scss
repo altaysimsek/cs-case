@@ -1,12 +1,46 @@
 .csHeader {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 90px;
 
+  &__logo {
+    margin-right: 64px;
+  }
+
+  &__search {
+    margin-right: 232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    border: 2px solid #edf1f2;
+    border-radius: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    &__input {
+      height: 30px;
+      width: 100%;
+      padding: 0 10px;
+      font-size: 14px;
+      outline: none;
+      border: none;
+      background-color: transparent;
+    }
+    &__button {
+      border-radius: 28px;
+      background-color: #51b549;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
   &__bucket {
     background-color: $base-blue;
-    padding: 16px 24px 16px 24px;
+    padding: 16px 24px;
     font-size: 16px;
     color: $base-white;
     display: flex;
