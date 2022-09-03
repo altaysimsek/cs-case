@@ -1,0 +1,48 @@
+.csCategories {
+  &__categoryTitleContainer {
+    display: flex;
+    align-items: center;
+    color: $base-blue;
+    &__title {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    &__icon {
+      margin-right: 10px;
+    }
+  }
+  &__category {
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid $border-01;
+      white-space: nowrap;
+      padding: 12px 54px;
+      color: $text-03;
+      border-radius: 10px;
+      margin-right: auto;
+      margin-top: 12px;
+      max-width: 195px;
+      width: 195px;
+      &--active {
+        background-color: $base-blue;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $text-01;
+        padding: 12px 54px;
+        color: $base-white;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-top: 12px;
+        max-width: 195px;
+        width: 195px;
+      }
+    }
+  }
+}

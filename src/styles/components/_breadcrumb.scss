@@ -1,0 +1,9 @@
+.csBreadCrumb {
+  color: $text-01;
+  margin: 10px 0;
+  &__link {
+    &--active {
+      color: $text-02;
+    }
+  }
+}

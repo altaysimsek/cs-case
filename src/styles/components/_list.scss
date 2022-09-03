@@ -1,0 +1,17 @@
+.csList {
+  margin: 20px 0;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: 20px;
+    color: $text-03;
+    font-weight: normal;
+    &__icon {
+      margin-right: 10px;
+    }
+  }
+}
