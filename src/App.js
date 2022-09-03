@@ -4,6 +4,7 @@ import Title from './components/shared/Title';
 import Breadcrumbs from './components/shared/Breadcrumbs';
 import Categories from './components/Categories';
 import List from './components/List';
+import Campaign from './components/Campaign';
 function App() {
   return (
     <>
@@ -12,7 +13,18 @@ function App() {
       <Breadcrumbs />
       <Categories />
       <List />
-      <div style={{ borderTop: '1px solid #EDF1F2' }}></div>
+      <section
+        style={{
+          borderTop: '1px solid #EDF1F2',
+          paddingTop: 10,
+          paddingBottom: 10,
+          display: 'flex'
+        }}
+        className="container">
+        <Campaign />
+        <Campaign />
+        <Campaign />
+      </section>
     </>
   );
 }

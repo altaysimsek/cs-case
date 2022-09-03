@@ -1,0 +1,34 @@
+.csCampaign {
+  display: flex;
+  background-color: $bg-red;
+  padding: 10px;
+  width: 480px;
+  border-radius: 10px;
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &__image {
+    margin-right: 20px;
+  }
+  &__status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    &__title {
+      color: $text-03;
+      font-size: 24px;
+      font-weight: 200;
+    }
+    &__link {
+      margin-top: 10px;
+      display: flex;
+      padding: 8px 16px;
+      border-radius: 15px;
+      color: $text-04;
+      background-color: $base-white;
+      display: block;
+    }
+  }
+}
