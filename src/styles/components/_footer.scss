@@ -1,0 +1,70 @@
+.csFooter {
+  background-color: $bg-grey;
+  padding-top: 150px;
+  &__campaign {
+    padding: 20px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $base-white;
+    border-radius: 111px;
+    height: 222px;
+    &__status {
+      padding-left: 30%;
+      &__text {
+        display: flex;
+        &__detail {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+        }
+      }
+      &__download {
+        display: flex;
+        margin-top: 20px;
+      }
+    }
+  }
+  &__navigation {
+    display: flex;
+    &__brand {
+      width: 400px;
+      margin-right: 100px;
+      &__socials {
+        margin-bottom: 20px;
+        > img {
+          margin-right: 20px;
+        }
+      }
+    }
+    &__links {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      &__list {
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        span {
+          color: $base-blue;
+          text-align: center;
+          font-size: 18px;
+          margin-bottom: 16px;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          li {
+            margin-bottom: 10px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

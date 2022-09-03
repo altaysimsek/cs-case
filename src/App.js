@@ -5,6 +5,7 @@ import Breadcrumbs from './components/shared/Breadcrumbs';
 import Categories from './components/Categories';
 import List from './components/List';
 import Campaign from './components/Campaign';
+import Footer from './components/shared/Footer';
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
         <Campaign />
         <Campaign />
       </section>
+      <Footer />
     </>
   );
 }
