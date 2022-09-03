@@ -1,0 +1,11 @@
+.csTitle {
+  height: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  background: transparent url('../../assets/img/bg-pattern.png') 0% 0% no-repeat padding-box;
+  h1 {
+    color: $base-white;
+    font-weight: 400;
+  }
+}
