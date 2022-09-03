@@ -1,0 +1,41 @@
+.csCard {
+  width: 272px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $border-01;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 35px;
+  &__status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: auto;
+    margin-top: auto;
+    &__title {
+      font-size: 14px;
+      color: $text-01;
+      font-weight: 400;
+    }
+    &__tag {
+      color: $text-02;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    &__price {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+  &__button {
+    color: $base-blue;
+    font-weight: 400;
+    border: 1px solid $base-blue;
+    text-align: center;
+    padding: 10px 80px;
+    border-radius: 22px;
+    background-color: white;
+    margin-top: auto;
+  }
+}
