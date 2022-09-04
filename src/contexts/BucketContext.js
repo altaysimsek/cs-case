@@ -7,9 +7,17 @@ export const BucketContext = createContext(null);
 const BucketProvider = ({ children }) => {
   const [bucket, setBucket] = useState([]);
   const [activeCategory, setActiveCategory] = useState({ id: 9, name: 'Tüm Kategoriler' });
-
+  const [activeSearch, setActiveSearch] = useState('');
   return (
-    <BucketContext.Provider value={{ bucket, setBucket, activeCategory, setActiveCategory }}>
+    <BucketContext.Provider
+      value={{
+        bucket,
+        setBucket,
+        activeCategory,
+        setActiveCategory,
+        activeSearch,
+        setActiveSearch
+      }}>
       {children}
     </BucketContext.Provider>
   );
