@@ -5,15 +5,31 @@ import Card from '../Card';
 
 import data from '../../constants/products.json';
 const List = () => {
-  const { activeCategory } = useContext(BucketContext);
+  const { activeSearch, activeCategory } = useContext(BucketContext);
 
   const renderCards = () => {
     //If the all category is selected, all products are listed.
     if (activeCategory.id === 9) {
-      return data.products.map((item) => <Card key={item.id} detail={item} />);
+      console.log(
+        data.products
+          .filter((item) => item.name.toLowerCase().includes(activeSearch))
+          .map((item) => <Card key={item.id} detail={item} />)
+      );
+      return data.products
+        .filter((item) => item.name.toLowerCase().includes(activeSearch))
+        .map((item) => <Card key={item.id} detail={item} />);
     } else {
       //If a category is selected, only the products in that category are listed.
+      console.log(
+        data.products
+          .filter((item) => item.name.toLowerCase().includes(activeSearch))
+          .filter((item) =>
+            item.category.map((category) => category.id).includes(activeCategory.id)
+          )
+          .map((item) => <Card key={item.id} detail={item} />)
+      );
       return data.products
+        .filter((item) => item.name.toLowerCase().includes(activeSearch))
         .filter((item) => item.category.map((category) => category.id).includes(activeCategory.id))
         .map((item) => <Card key={item.id} detail={item} />);
     }
