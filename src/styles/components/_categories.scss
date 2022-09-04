@@ -28,6 +28,9 @@
       margin-top: 12px;
       max-width: 195px;
       width: 195px;
+      &:hover {
+        cursor: pointer;
+      }
       &--active {
         background-color: $base-blue;
         white-space: nowrap;
@@ -42,6 +45,9 @@
         margin-top: 12px;
         max-width: 195px;
         width: 195px;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
