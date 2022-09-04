@@ -48,11 +48,27 @@
     border-radius: 28px;
     justify-content: center;
     align-items: center;
+    position: relative;
     &:hover {
       cursor: pointer;
     }
     &__icon {
       margin-right: 8px;
+    }
+    &__count {
+      position: absolute;
+      top: -10px;
+      right: 0;
+      background-color: $text-04;
+      color: $base-white;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 500;
     }
   }
 }
