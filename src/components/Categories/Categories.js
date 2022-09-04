@@ -6,10 +6,11 @@ import CategoriesIcon from '../../assets/icon/menu-icon.svg';
 import data from '../../constants/products.json';
 
 const Categories = () => {
-  const { activeCategory, setActiveCategory } = useContext(BucketContext);
+  const { activeCategory, setActiveCategory, setActiveSearch } = useContext(BucketContext);
 
   const handleClick = (category) => {
     setActiveCategory(category);
+    setActiveSearch('');
   };
 
   const renderCategories = (item) => {
