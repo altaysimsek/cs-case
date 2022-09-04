@@ -21,6 +21,15 @@ const Header = () => {
       <Search />
       <button type="button" className="csHeader__bucket">
         <div className="csHeader__bucket__count">{calculateNumberOfProducts()}</div>
+        <div className="csHeader__bucket__progresscontainer">
+          <span className="csHeader__bucket__progresscontainer__text">
+            <span className="csHeader__bucket__progresscontainer__text--active">x TL</span> daha
+            ekleyin kargo bedava
+          </span>
+          <span className="csHeader__bucket__progresscontainer__progressbar">
+            <span className="csHeader__bucket__progresscontainer__progressbar__progress"></span>
+          </span>
+        </div>
         <img src={BucketIcon} className="csHeader__bucket__icon" width="20px" height="20px"></img>
         Sepetim
       </button>

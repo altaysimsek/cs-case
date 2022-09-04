@@ -70,5 +70,59 @@
       font-size: 16px;
       font-weight: 500;
     }
+    &__progresscontainer {
+      &:hover {
+        cursor: default;
+      }
+      padding: 10px;
+      &::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 80%;
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        background-color: $bg-alice;
+      }
+      flex-direction: column;
+      position: absolute;
+      top: 120%;
+      right: 0;
+      width: 340px;
+      height: 100%;
+      background-color: $bg-alice;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      z-index: 1;
+      border-radius: 10px;
+      &__text {
+        &--active {
+          color: $bg-honey;
+          font-weight: bold;
+        }
+      }
+      &__progressbar {
+        margin-top: 5px;
+        position: relative;
+        width: 100%;
+        border-radius: 3px;
+        padding: 3px;
+        background-color: $bg-alice-dark;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__progress {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 20%;
+          height: 100%;
+          border-radius: 3px;
+          background-color: $bg-honey;
+        }
+      }
+    }
   }
 }
