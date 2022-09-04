@@ -25,6 +25,7 @@
     }
     &__price {
       font-size: 15px;
+      margin-top: auto;
       font-weight: 400;
     }
   }
@@ -37,5 +38,8 @@
     border-radius: 22px;
     background-color: white;
     margin-top: auto;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
