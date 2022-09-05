@@ -6,7 +6,10 @@
   border: 1px solid $border-01;
   border-radius: 10px;
   padding: 15px;
-  margin-top: 35px;
+  margin: 20px 25px;
+  &:last-child {
+    margin-right: 0;
+  }
   &__status {
     display: flex;
     flex-direction: column;

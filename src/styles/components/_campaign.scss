@@ -1,15 +1,23 @@
 .csCampaign {
   display: flex;
   background-color: $bg-red;
+  justify-content: center;
   padding: 10px;
-  width: 480px;
+  width: auto;
   border-radius: 10px;
   margin-right: 20px;
-  &:last-child {
-    margin-right: 0;
+  @include devices(tablet) {
+    width: 100%;
+    margin: 10px 0;
   }
+  @include devices(mobile) {
+    width: 100%;
+    margin: 10px 0;
+  }
+
   &__image {
     margin-right: 20px;
+    //make responsive image style
   }
   &__status {
     display: flex;
@@ -30,5 +38,16 @@
       background-color: $base-white;
       display: block;
     }
+  }
+}
+.csCamp {
+  @include devices(tabletl) {
+    flex-direction: column;
+  }
+  @include devices(tablet) {
+    flex-direction: column;
+  }
+  @include devices(mobile) {
+    flex-direction: column;
   }
 }

@@ -4,7 +4,15 @@
     display: flex;
     flex-wrap: wrap;
     margin: 10px 0;
-    justify-content: space-between;
+    justify-content: center;
+    &__non {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      width: 100%;
+    }
   }
   &__title {
     font-size: 20px;

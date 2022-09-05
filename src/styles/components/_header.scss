@@ -2,6 +2,42 @@
   display: flex;
   align-items: center;
   height: 90px;
+  @include devices(tablet) {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    &__logo {
+      margin: 10px 0 !important;
+    }
+    &__search {
+      margin: 10px 0 !important;
+    }
+    &__bucket {
+      margin: 10px 0 !important;
+      &__progresscontainer {
+        display: none !important;
+      }
+    }
+  }
+  @include devices(mobile) {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    &__logo {
+      margin: 10px 0 !important;
+    }
+    &__search {
+      margin: 10px 0 !important;
+    }
+    &__bucket {
+      margin: 10px 0 !important;
+      &__progresscontainer {
+        display: none !important;
+      }
+    }
+  }
 
   &__logo {
     margin-right: 64px;

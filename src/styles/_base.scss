@@ -9,4 +9,16 @@
 .container {
   padding-left: 220px;
   padding-right: 220px;
+  @include devices(tabletl) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @include devices(tablet) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @include devices(mobile) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }

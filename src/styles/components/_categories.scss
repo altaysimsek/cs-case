@@ -12,6 +12,7 @@
     }
   }
   &__category {
+    justify-content: center;
     display: flex;
     margin: 10px 0;
     flex-wrap: wrap;
@@ -24,7 +25,7 @@
       padding: 12px 54px;
       color: $text-03;
       border-radius: 10px;
-      margin-right: auto;
+      margin-right: 12px;
       margin-top: 12px;
       max-width: 195px;
       width: 195px;
@@ -41,7 +42,7 @@
         padding: 12px 54px;
         color: $base-white;
         border-radius: 10px;
-        margin-right: auto;
+        margin-right: 12px;
         margin-top: 12px;
         max-width: 195px;
         width: 195px;

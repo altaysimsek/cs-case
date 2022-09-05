@@ -27,11 +27,21 @@
         margin-top: 20px;
       }
     }
+    @include devices(tabletl) {
+      display: none !important;
+    }
+    @include devices(tablet) {
+      display: none !important;
+    }
+    @include devices(mobile) {
+      display: none !important;
+    }
   }
   &__navigation {
     display: flex;
     &__brand {
-      width: 400px;
+      width: 500px;
+      font-size: 12px;
       margin-right: 100px;
       &__socials {
         margin-bottom: 20px;
@@ -44,7 +54,6 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
-      align-items: center;
       &__list {
         margin-right: 20px;
         display: flex;
@@ -63,6 +72,58 @@
             margin-bottom: 10px;
             text-align: center;
           }
+        }
+      }
+    }
+    @include devices(tabletl) {
+      flex-direction: column;
+      align-items: center;
+      &__brand {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      &__links {
+        width: 100%;
+        &__list {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    @include devices(tablet) {
+      flex-direction: column;
+      align-items: center;
+      &__brand {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      &__links {
+        font-size: 12px;
+        width: 100%;
+        &__list {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    @include devices(mobile) {
+      flex-direction: column;
+      align-items: center;
+      &__brand {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      &__links {
+        font-size: 12px;
+        width: 100%;
+        &__list {
+          margin-right: 0;
+          margin-bottom: 20px;
         }
       }
     }
