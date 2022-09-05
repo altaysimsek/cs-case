@@ -15,7 +15,7 @@ function App() {
   return (
     <BucketProvider>
       <Header />
-      <Title title="Çiçeksepeti H1" />
+      <Title title="Çiçeksepeti" />
       <Breadcrumbs />
       <Categories />
       <List />
@@ -26,10 +26,10 @@ function App() {
           paddingBottom: 10,
           display: 'flex'
         }}
-        className="container">
-        <Campaign />
-        <Campaign />
-        <Campaign />
+        className="container csCamp">
+        <Campaign backgroundColor={'#FFEAE8'} />
+        <Campaign backgroundColor={'#E8F1FF'} />
+        <Campaign backgroundColor={'#E2F7E1'} />
       </section>
       <Footer />
     </BucketProvider>

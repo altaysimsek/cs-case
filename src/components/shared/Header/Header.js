@@ -18,7 +18,7 @@ const Header = () => {
   const calculatePriceOfBucket = () => {
     let price = 0;
     bucket.forEach((item) => {
-      price += Math.ceil(item.count * item.price);
+      price += Math.ceil(item.count * Math.ceil(item.price));
     });
     return price;
   };

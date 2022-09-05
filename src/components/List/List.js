@@ -39,9 +39,15 @@ const List = () => {
     <div className="csList container">
       <div className="csList__title">
         <img className="csList__title__icon" src={HeaderIcon}></img>
-        <span>Tüm Kategoriler</span>
+        <span>{activeCategory.name}</span>
       </div>
-      <div className="csList__list">{renderCards()}</div>
+      <div className="csList__list">
+        {renderCards().length === 0 ? (
+          <span className="csList__list__non">Herhangi bir ürün bulunamadı.</span>
+        ) : (
+          renderCards()
+        )}
+      </div>
     </div>
   );
 };

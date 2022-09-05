@@ -1,8 +1,9 @@
 import CampaignImage from '../../assets/img/campaign-01.png';
+import PropTypes from 'prop-types';
 
-const Campaign = () => {
+const Campaign = ({ backgroundColor }) => {
   return (
-    <div className="csCampaign">
+    <div className="csCampaign" style={{ backgroundColor }}>
       <img src={CampaignImage} className="csCampaign__image" alt="A man with motorcycle"></img>
       <div className="csCampaign__status">
         <span className="csCampaign__status__title">75 TL Üzerine Teslimat Ücreti Bizden</span>
@@ -12,6 +13,10 @@ const Campaign = () => {
       </div>
     </div>
   );
+};
+
+Campaign.propTypes = {
+  backgroundColor: PropTypes.string
 };
 
 export default Campaign;

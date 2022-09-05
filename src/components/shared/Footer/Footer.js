@@ -54,32 +54,41 @@ const Footer = () => {
             <span>Faydalı Bilgiler</span>
             <ul>
               <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
+              <li>Çiçek Eşliğinde Notlar</li>
+              <li>Çiçek Anlamları</li>
+              <li>Özel Günler</li>
+              <li>Mevsimlere Göre Çiçekler</li>
+              <li>Bonnyfood Saklama Koşulları</li>
+              <li>Site Haritası</li>
             </ul>
           </div>
           <div className="csFooter__navigation__links__list">
-            <span>Faydalı Bilgiler</span>
+            <span>Kurumsal</span>
             <ul>
-              <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
+              <li>Hakkımızda</li>
+              <li>Kariyer</li>
+              <li>Çiçeksepetinde Satış Yap</li>
+              <li>Kurumsal Müşterilerimiz</li>
+              <li>Basında Biz</li>
+              <li>Reklamlarımız</li>
+              <li>Kampanyalarımız</li>
             </ul>
           </div>
           <div className="csFooter__navigation__links__list">
-            <span>Faydalı Bilgiler</span>
+            <span>İletişim</span>
             <ul>
-              <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
+              <li>Bize Ulaşın</li>
+              <li>Sıkça Sorulan Sorular</li>
             </ul>
           </div>
           <div className="csFooter__navigation__links__list">
-            <span>Faydalı Bilgiler</span>
+            <span>Gizlilik Sözleşmesi</span>
             <ul>
-              <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
-              <li>Çiçek Bakımı</li>
+              <li>Mesafeli Satış Sözleşmesi</li>
+              <li>Bilgi Toplumu Hizmetleri</li>
+              <li>Gizlilik Sözleşmesi</li>
+              <li>Ödeme Seçenekleri</li>
+              <li>Hesap Bilgileri</li>
             </ul>
           </div>
         </div>
