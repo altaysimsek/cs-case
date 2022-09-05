@@ -13,13 +13,14 @@
     { "id": 11, "name": "Çiçek" },
     { "id": 12, "name": "Ev ve Yaşam" }
   ],
+
   "products": [
     {
       "id": 1,
       "name": "PZ6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
       "price": 399.9,
       "freePackage": false,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=1a52d53c-0309-4812-95b9-6970c5ceedb5&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item.png",
       "category": [
         { "id": 1, "name": "Elektronik" },
         { "id": 2, "name": "Telefon" },
@@ -31,7 +32,7 @@
       "name": "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
       "price": 145.61,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=c0a87201-7785-47c2-9338-9705c2023493&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-02.png",
       "category": [
         { "id": 4, "name": "Kozmetik" },
         { "id": 5, "name": "Parfüm" },
@@ -43,7 +44,7 @@
       "name": "Gold Çizgili Vazoda 2 Dal Orkide Çiçeği",
       "price": 249.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=dc1940f0-b959-4712-967c-131fbc5a9a28&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-02.png",
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }
@@ -54,7 +55,7 @@
       "name": "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
       "price": 329.9,
       "freePackage": false,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=a4d84395-8f3f-4739-a35f-88a8db4c1104&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-03.png",
       "category": [
         { "id": 4, "name": "Kozmetik" },
         { "id": 12, "name": "Ev ve Yaşam" }
@@ -65,7 +66,7 @@
       "name": "Sailor SD-3160 Siyah Dağcı Seyahat Sırt Çantası 55 LT Outdoor-Trekking",
       "price": 499.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=ab546623-8dc0-4d27-90c0-5168c6ef2fa1&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-04.png",
       "category": [
         { "id": 1, "name": "Elektronik" },
         { "id": 12, "name": "Ev ve Yaşam" }
@@ -76,7 +77,7 @@
       "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...",
       "price": 19.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=12c49382-ebef-443b-a705-b4ac8e57baed&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-05.png",
       "category": [{ "id": 1, "name": "Elektronik" }]
     },
     {
@@ -84,7 +85,7 @@
       "name": "130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
       "price": 89.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=d94d7c03-3a45-48b9-8ba0-51b7e2487fcf&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-06.png",
       "category": [{ "id": 1, "name": "Elektronik" }]
     },
     {
@@ -92,7 +93,7 @@
       "name": "925 Ayar Gümüş Dualı İsimli Nazar İgnesi",
       "price": 29.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=9023d7b5-90a7-4be5-9d79-91b8233ae529&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-07.png",
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }
@@ -103,7 +104,8 @@
       "name": "Özel Tatlar Çikolata Kutusu 300 gr",
       "price": 59.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=8b3734ec-e301-4e19-9551-8c1db3a4a3b0&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-08.png",
+
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }
@@ -114,7 +116,8 @@
       "name": "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
       "price": 199.9,
       "freePackage": false,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=05a77a79-0891-48c1-b855-ba90b619d552&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-09.png",
+
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }
@@ -125,7 +128,7 @@
       "name": "PZ6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
       "price": 399.9,
       "freePackage": false,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=1a52d53c-0309-4812-95b9-6970c5ceedb5&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-10.png",
       "category": [
         { "id": 1, "name": "Elektronik" },
         { "id": 2, "name": "Telefon" },
@@ -137,7 +140,7 @@
       "name": "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
       "price": 145.61,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=c0a87201-7785-47c2-9338-9705c2023493&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item.png",
       "category": [
         { "id": 4, "name": "Kozmetik" },
         { "id": 5, "name": "Parfüm" },
@@ -149,7 +152,7 @@
       "name": "Gold Çizgili Vazoda 2 Dal Orkide Çiçeği",
       "price": 249.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=dc1940f0-b959-4712-967c-131fbc5a9a28&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-02.png",
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }
@@ -160,7 +163,7 @@
       "name": "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
       "price": 329.9,
       "freePackage": false,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=a4d84395-8f3f-4739-a35f-88a8db4c1104&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-03.png",
       "category": [
         { "id": 4, "name": "Kozmetik" },
         { "id": 12, "name": "Ev ve Yaşam" }
@@ -171,7 +174,7 @@
       "name": "Sailor SD-3160 Siyah Dağcı Seyahat Sırt Çantası 55 LT Outdoor-Trekking",
       "price": 499.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=ab546623-8dc0-4d27-90c0-5168c6ef2fa1&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-04.png",
       "category": [
         { "id": 1, "name": "Elektronik" },
         { "id": 12, "name": "Ev ve Yaşam" }
@@ -182,7 +185,7 @@
       "name": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...",
       "price": 19.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=12c49382-ebef-443b-a705-b4ac8e57baed&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-05.png",
       "category": [{ "id": 1, "name": "Elektronik" }]
     },
     {
@@ -190,7 +193,7 @@
       "name": "130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
       "price": 89.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=d94d7c03-3a45-48b9-8ba0-51b7e2487fcf&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-06.png",
       "category": [{ "id": 1, "name": "Elektronik" }]
     },
     {
@@ -198,7 +201,7 @@
       "name": "925 Ayar Gümüş Dualı İsimli Nazar İgnesi",
       "price": 29.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=9023d7b5-90a7-4be5-9d79-91b8233ae529&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-07.png",
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }
@@ -209,7 +212,7 @@
       "name": "Özel Tatlar Çikolata Kutusu 300 gr",
       "price": 59.9,
       "freePackage": true,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=8b3734ec-e301-4e19-9551-8c1db3a4a3b0&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-08.png",
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }
@@ -220,7 +223,7 @@
       "name": "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
       "price": 199.9,
       "freePackage": false,
-      "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:08235f95-e4c6-4c4c-9d44-a84d6ec008ed;revision=0?component_id=05a77a79-0891-48c1-b855-ba90b619d552&api_key=CometServer1&access_token=1662302657_urn%3Aaaid%3Asc%3AUS%3A08235f95-e4c6-4c4c-9d44-a84d6ec008ed%3Bpublic_190dce65c9397f31dc55ee8e32e9b55c62b6395f",
+      "image": "item-09.png",
       "category": [
         { "id": 10, "name": "Hediye" },
         { "id": 11, "name": "Çiçek" }

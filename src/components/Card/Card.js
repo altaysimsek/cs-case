@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
 import PropTypes from 'prop-types';
 import { useContext } from 'react';
@@ -39,7 +40,7 @@ const Card = ({ detail }) => {
 
   return (
     <div className="csCard">
-      <img src={detail.image} alt="example_Item"></img>
+      <img src={`/items/${detail.image}`} alt="example_Item"></img>
       <div className="csCard__status">
         <span className="csCard__status__title">{detail.name}</span>
         {detail.freePackage && <span className="csCard__status__tag">Ücretsiz Teslimat</span>}

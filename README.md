@@ -1,3 +1,8 @@
+# Ciceksepeti Frontend Case
+
+When we change the category all filters are reset byself.
+You can make empty search for listing all items again.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
